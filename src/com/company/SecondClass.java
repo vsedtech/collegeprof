@@ -7,5 +7,11 @@ public class SecondClass {
         int a = 1;
         int b = 10;
         System.out.println(a+b+"is the result of adding a and b");
+        SecondClass sc = new SecondClass();
+        System.out.println(sc.getName());
+    }
+
+    public String getName(){
+        return "vsedtech";
     }
 }
