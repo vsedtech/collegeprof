@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("/collegeprof") {
-                sh 'mvn -B  clean install'
+                bat 'mvn -B  clean install'
                 }
             }
         }
