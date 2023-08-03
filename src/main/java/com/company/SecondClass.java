@@ -10,6 +10,7 @@ public class SecondClass {
         SecondClass sc = new SecondClass();
         System.out.println(sc.getName());
         System.out.println("1 change");
+        System.out.println("Coimbatore is a nice city to live");
     }
 
     public String getName(){
