@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("/collegeprof") {
-                sh 'mvn -B -DskipTests clean package'
+                sh 'mvn -B  clean build'
                 }
             }
         }
