@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("C:\\Users\\DELL\\IdeaProjects\\collegeprof1") {
-                bat 'mvn -B  clean package'
+                bat 'mvn -B  clean package deploy'
                 }
             }
         }
