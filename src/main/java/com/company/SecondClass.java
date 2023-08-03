@@ -20,4 +20,7 @@ public class SecondClass {
     public void calculateRate(){
         System.out.println("The rate of the building is ₹45 crores");
     }
+    protected void finalReport(){
+        System.out.println("final report is something that we should give");
+    }
 }
