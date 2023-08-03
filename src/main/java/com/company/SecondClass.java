@@ -9,6 +9,7 @@ public class SecondClass {
         System.out.println(a+b+"is the result of adding a and b");
         SecondClass sc = new SecondClass();
         System.out.println(sc.getName());
+        System.out.println("1 change");
     }
 
     public String getName(){
