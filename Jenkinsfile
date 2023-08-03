@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("/collegeprof/src/main/java") {
+                dir("/collegeprof") {
                 sh 'mvn -B -DskipTests clean package'
                 }
             }
