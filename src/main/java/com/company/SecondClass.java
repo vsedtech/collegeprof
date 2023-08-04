@@ -12,6 +12,7 @@ public class SecondClass {
         System.out.println(sc.getName());
         System.out.println("1 change");
         System.out.println("Coimbatore is a nice city to live");
+        System.out.println("SRKV");
     }
 
     public String getName(){
